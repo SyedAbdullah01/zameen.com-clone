@@ -1,0 +1,365 @@
+/* Custom styles to match Zameen.com's UI */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #33a137;
+    /* Zameen.com's green */
+    border-bottom: 1px solid #2a8a2e;
+    /* Darker green for subtle border */
+}
+
+.navbar .nav-link {
+    font-weight: 600;
+    color: #fff;
+    /* White text for contrast on green background */
+    padding: 10px 15px;
+}
+
+.navbar .nav-link:hover {
+    color: #e5e5e5;
+    /* Light gray for hover on nav links */
+}
+
+.navbar .btn-post-property {
+    background-color: #ffffff;
+    /* White background for Post Property button */
+    border: 1px solid #33a137;
+    /* Green border to match theme */
+    color: #33a137;
+    /* Green text for contrast */
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navbar .btn-post-property:hover {
+    background-color: #f5f5f5;
+    /* Light gray for hover */
+    color: #2a8a2e;
+    /* Darker green for hover text */
+    border-color: #2a8a2e;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/home-bg.jpg') no-repeat center center/cover;
+    min-height: 600px;
+    /* Increased height for prominence */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background-attachment: fixed;
+    /* Matches Zameen.com's parallax effect */
+}
+
+.search-box {
+    max-width: 1000px;
+    width: 90%;
+    /* Responsive width for smaller screens */
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.nav-tabs {
+    background: #f8f8f8;
+    border: none;
+    margin: 0;
+    padding: 10px 20px 0 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-tabs .nav-item {
+    margin: 0;
+}
+
+.nav-tabs .nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+    border: none;
+    padding: 12px 24px;
+    margin: 0 4px 0 0;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #33a137;
+    /* Zameen.com's green */
+    color: #fff;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+.search-box .tab-content {
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.search-box .form-select,
+.search-box .form-control {
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    padding: 10px 12px;
+    font-size: 14px;
+    height: 42px;
+    line-height: 1.5;
+}
+
+.search-box .btn-primary {
+    background-color: #33a137;
+    /* Zameen.com's green */
+    border-color: #33a137;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 42px;
+    line-height: 1.5;
+}
+
+.search-box .btn-primary:hover {
+    background-color: #2a8a2e;
+    /* Darker green for hover */
+    border-color: #2a8a2e;
+}
+
+.search-box .btn-link {
+    color: #33a137;
+    /* Zameen.com's green */
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0;
+    height: 42px;
+    line-height: 1.5;
+}
+
+.search-box .btn-link:hover {
+    color: #2a8a2e;
+    /* Darker green for hover */
+    text-decoration: underline;
+}
+
+.advanced-filters {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 15px;
+}
+
+.advanced-filters .form-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Browse Properties Section Styles */
+.browse-properties-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.browse-properties-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.browse-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100%;
+}
+
+.browse-card .card-header {
+    background-color: #f5f5f5;
+    /* Lighter gray for header */
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.browse-card .card-header i {
+    margin-right: 10px;
+    color: #33a137;
+    /* Zameen.com's green */
+}
+
+.browse-card .card-body {
+    padding: 15px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.green-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #33a137;
+    /* Zameen.com's green */
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.filter-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-tile {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    /* Remove underline from links */
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-tile:hover,
+.filter-tile.active {
+    background-color: #33a137;
+    /* Zameen.com's green */
+    color: #fff;
+    border-color: #33a137;
+}
+
+.filter-tile i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    min-width: 200px;
+    padding: 5px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: none;
+    /* Removed dropdown functionality */
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    /* Remove underline from dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+    color: #33a137;
+}
+
+/* Featured Properties Section Styles */
+.property-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.property-card .card-body {
+    padding: 15px;
+}
+
+.property-card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.property-card .card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.property-card .btn-primary {
+    background-color: #33a137;
+    /* Zameen.com's green */
+    border-color: #33a137;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+
+.property-card .btn-primary:hover {
+    background-color: #2a8a2e;
+    /* Darker green for hover */
+    border-color: #2a8a2e;
+}
+
+.properties-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+footer {
+    background-color: #1a2526;
+}
+
+footer h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer p,
+footer a {
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #33a137;
+    /* Zameen.com's green */
+}
